@@ -6,7 +6,7 @@ sources:
   schema: dwh_training
 
   tables:
-    - name: album
+    - name: albums
       description: This is a raw data housing music album data
 
     - name: artist
