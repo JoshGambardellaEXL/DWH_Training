@@ -9,7 +9,7 @@ select
     country as customer_mailing_country,
     postalcode as customer_mailing_zipcode,
     phone as customer_phone_number,
-    fax as cusomer_fax_number,
+    fax as customer_fax_number,
     email as customer_email_address,
     supportrepid as representative_employee_id
 from {{ source("music",'customer') }}
