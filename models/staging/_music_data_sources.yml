@@ -11,19 +11,25 @@ sources:
 
     - name: artist
       description: This is a raw data table housing music artist data
+
     - name: customer
       description: This is a raw data table housing customer data with basic identity and geographic information
+
     - name: employee
       description: This is a raw data table housing employee data with basic identity and geographic information
+
     - name: genre
       description: This is a numbered list of music genres
+
     - name: invoice
       description: This is a raw data table of payments made with some additional customer info
+
     - name: invoice_line
       description: This is a raw data table housing a list of invoices.
+
     - name: media_type
       description: This is a raw data table housing a list of media types.
-
+      
     - name: playlist
       description: This is a raw data table housing a list of playlists
 

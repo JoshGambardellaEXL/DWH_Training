@@ -60,18 +60,15 @@ models:
 
   - name: stg_music__media_types
     description: This model has a list of music mediums.
-    tests: 
-      - unique
-      - not_null
-
-  - name: stg_music__playlist_tracks
-    description: This model has a list of playlists and tracks that are included in the playlists.
     columns:
-      - name: track_id
+      - name: mediatype_id
         tests: 
           - unique
           - not_null
 
+  - name: stg_music__playlist_tracks
+    description: This model has a list of playlists and tracks that are included in the playlists.
+    
   - name: stg_music__playlists
     description: This model has a list of playlists. 
     columns:
