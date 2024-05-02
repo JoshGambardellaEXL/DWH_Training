@@ -13,6 +13,7 @@ select
     employee_id,
     employee_first_name,
     employee_last_name,
+    concat(employee_first_name, ' ', employee_last_name) as employee_name,
     employee_title,
     employee_birth_date,
     employee_hired_date,

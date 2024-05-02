@@ -11,6 +11,7 @@ select
     genres.genre_name,
     tracks.track_length_ms,
     tracks.track_length_mins,
+    tracks.track_length_seconds,
     tracks.bytes,
     tracks.unit_price
 from {{ ref('stg_music__tracks') }} tracks
