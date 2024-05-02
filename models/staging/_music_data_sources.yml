@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+- name: music
+  database: music
+  schema: dwh_training
+
+  tables:
+    - name: albums
+      description: This is a raw data housing music album data
+
+    - name: artist
+      description: This is a raw data table housing music artist data
+
+    - name: customer
+      description: This is a raw data table housing customer data with basic identity and geographic information
+
+    - name: employee
+      description: This is a raw data table housing employee data with basic identity and geographic information
+
+    - name: genre
+      description: This is a numbered list of music genres
+
+    - name: invoice
+      description: This is a raw data table of payments made with some additional customer info
+
+    - name: invoice_line
+      description: This is a raw data table housing a list of invoices.
+
+    - name: media_type
+      description: This is a raw data table housing a list of media types.
+      
+    - name: playlist
+      description: This is a raw data table housing a list of playlists
+
+    - name: playlist_track
+      description: This is a raw data table housing a list of playlist tracks
+
+    - name: track
+      description: This is a raw data table housing all relevant song data
+
