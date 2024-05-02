@@ -68,7 +68,11 @@ models:
 
   - name: stg_music__playlist_tracks
     description: This model has a list of playlists and tracks that are included in the playlists.
-    
+    columns:
+      - name: playlist_id
+        tests: 
+          - not_null
+          
   - name: stg_music__playlists
     description: This model has a list of playlists. 
     columns:
