@@ -5,20 +5,20 @@ models:
   - name: dim_music_playlists
     description: This model has playlists with all possible song information for each of the songs listed.
     tests: 
-      - unique:
+      - unique
       - not null
   
   - name: dim_music_tracks
     description: This model has a list of songs and all possible identifiers like price, bytes, artist, etc.
     tests: 
-      - unique:
+      - unique
       - not null
 
   - name: fct_music_sales
     description: This table is basically a list of all transactions with all information about the song that was purchased.
                   We have employee info, customer info, song info.
     tests: 
-      - unique:
+      - unique
       - not null
 
 
