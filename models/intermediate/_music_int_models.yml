@@ -6,18 +6,18 @@ models:
     description: This model has customer information along with corresponding employee information. 
     tests: 
       - unique
-      - not null
+      - not_null
     
   - name: int_invoice_lines_joined_to_invoices
     description: This model joines the invoice_lines and invoices tables to show all possible payment information.
     tests: 
       - unique
-      - not null
+      - not_null
     
   - name: int_tracks_joined_to_albums_artists_genre_mediatype
     description: This model has all possible information about each of its songs
     tests: 
       - unique
-      - not null
+      - not_null
 
 
